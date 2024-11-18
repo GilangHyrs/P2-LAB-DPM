@@ -8,7 +8,7 @@ const FlexBoxLayout = () => {
 
   return (
     <ImageBackground 
-      source={{ uri: 'https://th.bing.com/th/id/OIP.Wt4hmJbJ5FQVPEoko9eVTgHaHa?pid=ImgDet&w=184&h=184&c=7&dpr=1,3' }} 
+      source={{ uri: 'https://th.bing.com/th/id/R.a40b697350e5c303990b6eed71cc9b21?rik=YQOc5VUesrdW9w&riu=http%3a%2f%2f1.bp.blogspot.com%2f-fcW-wzY7LrQ%2fUPzwf_Jm2xI%2fAAAAAAAAANU%2feEvGjluPrIw%2fs1600%2fAbu-abu.png&ehk=i0kmpcX8Lh9z2W22G72%2fbehDR3degAAFooCwEQ8NCnQ%3d&risl=&pid=ImgRaw&r=0' }} 
       style={styles.background}
     >
       <View style={styles.container}>
@@ -29,6 +29,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
+    backgroundColor: '#d3d3d3',
   },
   container: {
     flexDirection: 'row',
@@ -38,12 +39,13 @@ const styles = StyleSheet.create({
   },
   text: {
     fontSize: 24,
-    color: 'gray',
+    color: 'blue',
     fontWeight: 'bold',
     textAlign: 'center',
     marginBottom: 20,
     top: '-100%', 
     left: '29%',
+    fontFamily: 'ModerneSans.ttf',
   },
   box1: {
     width: 100,
